@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="/js/job.js">
   </head>
   <body>
-    <a href="{{ url('logout') }}"><input type="submit" name="ok" value="Log Out" class="btn btn-danger"></a>
+    <a href="{{ url('logout') }}"><input type="submit" name="ok" value="Log Out" class="btn btn-danger" onclick="return confirm('Yakin Anda Ingin Logout?')"></a>
     <center><h2>E-Bimbingan Prakerin</h2></center>
     <hr>
     <form action="" method="post">
